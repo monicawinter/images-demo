@@ -1,9 +1,41 @@
 html{
-  background-color: #fff;
   box-sizing: border-box;
-  margin: 0;
 }
 
 *, *::before, *::after{
   box-sizing: inherit;
+}
+
+.masthead{
+  background-image: url("../images/logo.svg"), url(../images/masthead-bg.png);
+  background-size: 75px auto, 200px auto;
+  padding-top: 6em;
+  background-repeat: no-repeat, repeat;
+  background-position: center 10px, left top;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.box {
+  background-color: #3B3A33;
+  padding: 1em;
+}
+
+.btn{
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: #a8ae98;
+  background-image: linear-gradient(to bottom, #a8ae98, #5b5e52);
+  text-align: center;
+}
+
+h1{
+  margin: 0;
 }
